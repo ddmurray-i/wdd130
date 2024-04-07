@@ -228,6 +228,18 @@ nav {
     box-sizing: border-box;
 }
 
+#tinypics {
+    border-radius: 8px;
+    border: 5px solid rgb(194, 194, 194);
+    margin-left: .5em;
+  }
+
+  #tinypicsright {
+    border-radius: 8px;
+    border: 5px solid rgb(194, 194, 194);
+    margin-left: 46.5em
+  }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
