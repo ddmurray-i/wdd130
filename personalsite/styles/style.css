@@ -58,14 +58,9 @@ header {
     color: black;
   }
   
-  .topnav a.active {
-    background-color: #E8A201;
-    color: white;
-  }
-  
  main{
     padding: 50px;
-    text-align: center;
+    text-align: left;
     color: #dddddd9d
  }
 
