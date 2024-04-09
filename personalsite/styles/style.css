@@ -1,0 +1,75 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+body {
+    background-color: #2F3230;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #01C2DB;
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.logo{
+    width: 150px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+#logo_link {
+    padding-top: 10px;
+    padding-left: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+.topnav {
+    background-color: #01C2DB;
+    overflow: hidden;
+    padding-top:70px;
+    padding-left:50px;
+  }
+  
+  .topnav a {
+    color: #2F3230;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #E8A201;
+    color: white;
+  }
+  
+ main{
+    padding: 50px;
+    text-align: center;
+    color: #dddddd9d
+ }
+
+ footer{
+    padding: 10px;
+    color: #dddddd9d
+ }
