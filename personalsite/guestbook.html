@@ -14,8 +14,8 @@ body {
 form {
   display: inline-block;
   /* Form outline */
-  padding: 1em;
-  border: 1px solid #ccc;
+  padding: 10%;
+  border: 10px dotted #ccc;
   border-radius: 1em;
 }
 
@@ -42,10 +42,8 @@ textarea {
      By default, textareas have a monospace font */
   font: 1em sans-serif;
   /* Uniform text field size */
-  width: 300px;
   box-sizing: border-box;
   /* Match form field borders */
-  border: 1px solid #999;
 }
 
 input:focus,
@@ -66,11 +64,6 @@ textarea {
   padding-left: 90px; /* same size as the label elements */
 }
 
-button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
-  margin-left: 0.5em;
-}
 </style>
 </head>
 <body>
@@ -91,27 +84,34 @@ button {
             <img id="hero-img" src="images/heroimg3.jpg" alt="Video Game Header">
         </div>
     </div>
-    <main>
-        <form action="/aceofspadesguestbook" method="post">
-            <ul>
-              <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" />
-              </li>
-              <li>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-              </li>
-              <li class="button">
-                <button type="submit">Send your message</button>
-              </li>
-            </ul>
-          </form>
-    </main>
+    <body> 
+      <main>
+      Please don't share personal information!
+      <div class="container"> 
+          <h1>GuestBook</h1> 
+          <form id="guestForm"> 
+              <div class="form-input"> 
+                  <label for="name">Name:</label> 
+                  <input type="text" style="width:20em"
+                         id="name" name="Name" 
+                         required> 
+                  <label for "message">Message:</label>
+                  <input type="text" style = "width: 40em; height:20em"
+                         id="message" name="Message" 
+                         required> 
+              </div> 
+              <div class="btn"><button type="submit"> 
+                      Add Message
+                  </button></div> 
+          </form> 
+          <div id="guestList"></div> 
+      </div> 
+      <script src="script.js"></script> 
+      </main>
+  </body> 
     <footer>
     <p>Ace of Spades Gaming &copy; 2024 - DeLynn Murray</p>
     <p><a href="site-plan.html">Site Plan</a></p>
-    <p><a href="guestbook.html"></a>Sign the Guestbook!</p>
     <div class="social">
         <a href="https://facebook.com" target="_blank">
             <img src="images/facebook.png" alt="fb icon">

@@ -68,3 +68,64 @@ header {
     padding: 10px;
     color: #dddddd9d
  }
+
+ .container { 
+    width: 80%; 
+    padding: 20px; 
+    background-color: #2F3230; 
+    border-radius: 8px; 
+} 
+  
+.container h1 { 
+    text-align: left; 
+} 
+  
+.form-input { 
+    margin-bottom: 11px; 
+} 
+  
+.form-input label { 
+    display: block; 
+    margin-bottom: 5px; 
+} 
+  
+.form-input input { 
+    width: 80%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-family: Montserrat, sans-serif; 
+    font-size: 12px; 
+} 
+  
+.btn button { 
+    cursor: pointer; 
+    background-color: #E8A201; 
+    transition: background-color 0.4s ease; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 3px; 
+    font-size: 12px; 
+} 
+  
+.guest-card { 
+    border: 1px solid #2F3230; 
+    padding: 5px; 
+    margin: 5px 0; 
+    background-color: #2F3230; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+} 
+  
+.btn button:hover { 
+    background-color: #394b5e; 
+} 
+  
+.guest-card h2 { 
+    margin: 0; 
+} 
+  
+.guest-card p { 
+    margin: 5px 0; 
+}
